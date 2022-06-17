@@ -1,7 +1,7 @@
 # Main analyses in R
 
 This folder contains R scripts for the analyses.<br>
-Although the entire cohort is not published, credentialed users who have finished required training can use the subset of the dataset, which consists of patients included in the publicly available eICU dataset, for the analysis.<br>
+Although the entire cohort is not published, credentialed Physionet users who have finished required training can use the subset of the dataset, which consists of patients included in the publicly available eICU dataset, for the analysis.<br>
 The original cohort has 22,494 patients, and 2,284 of them are available in the subcohort.<br>
 Please contact Takahiro Kiritoshi <takahiro.kiritoshi@philips.com> to request the data.
 
