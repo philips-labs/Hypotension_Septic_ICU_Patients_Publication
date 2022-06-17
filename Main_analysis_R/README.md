@@ -1,10 +1,9 @@
 # Main analyses in R
 
 This folder contains R scripts for the analyses.<br>
-Although the entire cohort is not published, you can use the subset of the dataset, which consists of patients included in the publicly available eICU dataset, for the analysis.<br>
-The original cohort has 22,494 patients, and 2,284 of them are available in the subcohort.
-Please use the following csv files.<br>
-`Sepsis_Death.csv`, `Sepsis_AKI.csv`, `Sepsis_MI.csv`
+Although the entire cohort is not published, credentialed users who have finished required training can use the subset of the dataset, which consists of patients included in the publicly available eICU dataset, for the analysis.<br>
+The original cohort has 22,494 patients, and 2,284 of them are available in the subcohort.<br>
+Please contact Takahiro Kiritoshi <takahiro.kiritoshi@philips.com> to request the data.
 
 1. Thin plate logistic regression spline and visualization of predicted probabilities with histogram of exposures: `Main_Analysis.R`
 
