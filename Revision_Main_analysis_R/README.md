@@ -1,0 +1,99 @@
+# Revision main analyses in R
+		
+
+		This folder contains R scripts for the analyses.<br>
+		We have updated the analysis based on the revision request from Annals of Intensive Care.<br>
+		
+
+		1. Thin plate logistic regression spline and visualization of predicted probabilities with histogram of exposures for primary outcome: `Revision_Main_Analysis.R`
+		
+
+		2. Thin plate logistic regression spline and visualization of predicted probabilities with histogram of exposures for secondary outcomes: `Revision_Secondary_Analysis.R`
+		
+
+		3. Categorizing exposure levels to different levels to explore relative risks and subgroup analyses: `Revision_Sepsis_Categorical_Analysis.R`
+		
+
+		<p>
+		- MAP
+		<ol type="a">
+		<li>Mean BP ≥75mmHg (reference)</li>
+		<li>Mean BP <75mmHg</li>
+		<li>Mean BP <65mmHg</li>
+		<li>Mean BP <55mmHg</li>
+		<li>Mean BP <45mmHg</li>
+		</ol>
+		a vs b, a vs c, a vs d, a vs e
+		</p>
+		
+
+		<p>
+		- SBP
+		<ol type="a">
+		<li>sBP ≥110mmHg (reference)</li>
+		<li>sBP <110mmHg</li>
+		<li>sBP <100mmHg</li>
+		<li>sBP <90mmHg</li>
+		<li>sBP <80mmHg</li>
+		</ol>
+		a vs b, a vs c, a vs d, a vs e
+		</p>
+		
+
+		<p>
+		- DBP
+		<ol type="a">
+		<li>dBP ≥60mmHg (reference)</li>
+		<li>dBP <60mmHg</li>
+		<li>dBP <50mmHg</li>
+		<li>dBP <40mmHg</li>
+		<li>dBP <30mmHg</li>
+		</ol>
+		a vs b, a vs c, a vs d, a vs e
+		</p>
+		
+
+		<p>
+		- PP
+		<ol type="a">
+		<li>40 ≤ PP < 50mmHg (reference)</li>
+		<li>PP ≥50mmHg</li>
+		<li>PP <40mmHg</li>
+		<li>PP <30mmHg</li>
+		<li>PP <20mmHg</li>
+		</ol>
+		a vs b, a vs c, a vs d, a vs e
+		</p>
+		
+
+		Subgroup analysis<br>
+		- Age (year)<br>
+		<45 years<br>
+		45 to 64 years<br>
+		65 years or more<br>
+		<br>
+		- Vasopressor usage (in NEE mcg/kg/min)<br>
+		0<br>
+		0 to 0.05<br>
+		0.05 to 0.1<br>
+		0.1 or more<br>
+		<br>
+		- On ventilator<br>
+		No<br>
+		Yes<br>
+		<br>
+		- Cancer/Tumor<br>
+		No<br>
+		Yes<br>
+		<br>
+		- Admission type<br>
+		Emergency department<br>
+		Other ward<br>
+		Elective<br>
+		Other hospital<br>
+		
+
+		4. Threshold logistic regression analysis: `Revision_Threshold_Analysis.R`
+		
+
+		5. Thin plate logistic regression spline and visualization of predicted probabilities using time-weighted average under the threshold defined by the threshold logistic regression: `Revision_Time_Weighted_Average.R`
